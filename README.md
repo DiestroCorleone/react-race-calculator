@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# React Race Times Calculator
+
+App created as part of the [Codo a Codo](https://www.buenosaires.gob.ar/educacion/codo-codo) React course.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Description
+
+This app asks for a number of laps, then the duration of each lap, and returns a table with your race times and an average.
+You can export it into a PDF file.
+
+## Dependencies Used
+
+- [react-bootstrap](https://www.npmjs.com/package/react-bootstrap)
+- [jspdf](https://www.npmjs.com/package/jspdf)
+- [jspdf-autotable](https://www.npmjs.com/package/jspdf-autotable)
+- [nanoid](https://www.npmjs.com/package/nanoid)
 
 ## Available Scripts
 

@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Container from "react-bootstrap/Container";
+import Header from "./components/Header";
+import NumberOfLapsForm from "./components/NumberOfLapsForm";
+import PdfCreatorButton from "./components/PdfCreatorComponents/PdfCreatorButton";
+import Footer from "./components/Footer";
 
 function App() {
+  const [showPdfButton, setShowPdfButton] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container
+      fluid
+      className="bg-light bg-gradient full-height d-flex flex-column justify-content-between"
+    >
+      <Header />
+      <NumberOfLapsForm
+        setShowPdfButton={setShowPdfButton}
+        showPdfButton={showPdfButton}
+      />
+      {showPdfButton && <PdfCreatorButton />}
+      <Footer />
+    </Container>
   );
 }
 
