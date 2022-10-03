@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/react-race-calculator/static/js/main.ad03caf1.js",
+    "static/js/498.2267d471.chunk.js": "/react-race-calculator/static/js/498.2267d471.chunk.js",
+    "static/js/703.b62ffdc7.chunk.js": "/react-race-calculator/static/js/703.b62ffdc7.chunk.js",
+    "static/js/573.b07a9044.chunk.js": "/react-race-calculator/static/js/573.b07a9044.chunk.js",
+    "static/js/787.f41af1bb.chunk.js": "/react-race-calculator/static/js/787.f41af1bb.chunk.js",
+    "index.html": "/react-race-calculator/index.html",
+    "main.ad03caf1.js.map": "/react-race-calculator/static/js/main.ad03caf1.js.map",
+    "498.2267d471.chunk.js.map": "/react-race-calculator/static/js/498.2267d471.chunk.js.map",
+    "703.b62ffdc7.chunk.js.map": "/react-race-calculator/static/js/703.b62ffdc7.chunk.js.map",
+    "573.b07a9044.chunk.js.map": "/react-race-calculator/static/js/573.b07a9044.chunk.js.map",
+    "787.f41af1bb.chunk.js.map": "/react-race-calculator/static/js/787.f41af1bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ad03caf1.js"
+  ]
+}
